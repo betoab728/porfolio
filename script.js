@@ -1,14 +1,10 @@
 window.addEventListener('scroll', function() {
     var navbar = document.querySelector('.navbar');
-    if (window.scrollY > 50) { // Cambia el valor según cuándo quieras que ocurra el cambio
+    var navbarToggle = document.querySelector('.navbar-toggler');
+
+    if (window.scrollY > 50 ) {
         navbar.classList.add('scrolled');
     } else {
         navbar.classList.remove('scrolled');
     }
-});
-
-$(document).ready(function() {
-    $('.navbar-toggler').click(function() {
-        $('.navbar-collapse').toggleClass('navbar-opaque');
-    });
 });
