@@ -10,6 +10,10 @@ body, html {
     color: #fff;
 }
 
+.navbar {
+    height: 5rem ;
+ }
+
 .container {
     width: 80%;
     max-width: 1200px;
@@ -25,6 +29,8 @@ body, html {
 }
 
 /* Barra de navegación */
+
+
 
 .nav-link {
     color: #ffffff;
@@ -49,8 +55,8 @@ body, html {
 
 /* Sección de inicio */
 .hero-section {
-   
-    height: 80vh;
+    
+    min-height: calc(100vh - 5rem);
     display: flex;
     justify-content: center;
     align-items: center;
@@ -72,10 +78,10 @@ body, html {
 }
 
 .hero-section .hero-image img {
-    width: 200px;
+    width: 12rem;
     border-radius: 50%;
-    border: 5px solid #fff;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    border: 0.4rem solid #fff;
+    box-shadow: 0 0 0.8rem rgba(0, 0, 0, 0.5);
 }
 
 /* Secciones de contenido */
@@ -103,9 +109,6 @@ body, html {
     box-shadow: 0 0 10px rgba(158, 184, 16, 0.5);
 
 } 
-
-
-
 
 
 .skill h3 {
@@ -229,6 +232,15 @@ body, html {
   
     text-decoration: none;
 }
+
+
+
+  .navbar-opaque {
+    background-color: rgb(86, 87, 107); /* Color de fondo gris tenue */
+    width: 100%;
+}
+
+
 
 
 

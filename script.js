@@ -6,3 +6,9 @@ window.addEventListener('scroll', function() {
         navbar.classList.remove('scrolled');
     }
 });
+
+$(document).ready(function() {
+    $('.navbar-toggler').click(function() {
+        $('.navbar-collapse').toggleClass('navbar-opaque');
+    });
+});
