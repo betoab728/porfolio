@@ -355,7 +355,7 @@ footer {
     }
 
     .hero-section .hero-image img {
-        width: 10rem; /* Reducir el tamaño de la imagen */
+        width: 8rem; /* Reducir el tamaño de la imagen */
     }
     .title-section{
         font-size: 2.2rem;
