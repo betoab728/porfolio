@@ -343,11 +343,12 @@ footer {
 @media only screen and (max-width: 900px) {
     /* Ajuste para dispositivos pequeños (como teléfonos) */
     .hero-section .hero-content h1 {
-        font-size: 2rem; /* Reducir el tamaño del título */
+        font-size: 1.8rem; /* Reducir el tamaño del título */
+        margin-bottom: 0.3rem; ;
     }
 
     .hero-section .hero-content  h2 {
-        font-size: 1.2rem; /* Reducir el tamaño del título */
+        font-size: 1.5rem; /* Reducir el tamaño del título */
     }
 
     .hero-section .hero-content p {
