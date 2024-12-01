@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Detalle del Proyecto</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Encabezado del Proyecto -->
+    <header class="container-fluid bg-dark text-white py-5">
+        <div class="container text-center">
+            <h1>Pagina web Responsiva para centro veterinario </h1>
+            <p class="lead">
+                Esta página busca facilitar la consulta de servicios veterinarios, agendar citas, 
+                conocer más sobre el equipo de profesionales,  obtener información sobre cuidados 
+                para mascotas y promover los servicios y productos disponibles en el centro. El objetivo 
+                principal de este proyecto es desarrollar una página web responsiva que refleje la identidad 
+                de la veterinaria Allqovet, brindando a los usuarios una plataforma eficiente y profesional 
+                para acceder a la información sobre los servicios veterinarios. 
+            </p>
+        </div>
+    </header>
+
+    <!-- Sección de Tecnologías -->
+    <section id="tecnologias" class="container my-5">
+        <h2 class="text-center mb-4">Tecnologías Utilizadas</h2>
+        <div class="row text-center">
+            <div class="col-md-3">
+                <i class="fas fa-file-code fa-3x text-danger"></i>
+                <p>HTML</p>
+            </div>
+            <div class="col-md-3">
+                <i class="fas fa-palette fa-3x text-primary"></i>
+                <p>CSS</p>
+            </div>
+            <div class="col-md-3">
+                <i class="fab fa-js fa-3x text-warning"></i>
+                <p>JavaScript</p>
+            </div>
+            <div class="col-md-3">
+                <i class="fab fa-php fa-3x text-info"></i>
+                <p>PHP</p>
+            </div>
+        </div>
+        
+    </section>
+
+    <!-- Sección de Funcionalidades -->
+    <section id="funcionalidades" class="container my-5">
+        <h2 class="text-center mb-4">Características Principales</h2>
+        <ul class="list-group list-group-flush">
+            <li class="list-group-item">
+                <i class="fas fa-check-circle text-success me-2"></i> 
+                Servicios Veterinarios: Sección detallada sobre los servicios ofrecidos, incluyendo consultas, vacunación, cirugía, urgencias, y más.
+            </li>
+            <li class="list-group-item">
+                <i class="fas fa-check-circle text-success me-2"></i> 
+                Agendamiento de Citas: Funcionalidad que permite a los usuarios agendar citas en línea
+                para consultas y servicios veterinarios
+            </li>
+            <li class="list-group-item">
+                <i class="fas fa-check-circle text-success me-2"></i> 
+                Información sobre el Equipo: Presentación del equipo de veterinarios y personal de la clínica, con
+                 detalles sobre su experiencia y especializaciones.
+            </li>
+            <li class="list-group-item">
+                <i class="fas fa-check-circle text-success me-2"></i> 
+                Información de Contacto y Ubicación: Dirección, números de teléfono y un mapa interactivo para que
+                 los clientes puedan ubicar fácilmente la clínica en Piura.
+            </li>
+        </ul>
+    </section>
+
+    <!-- Sección de Capturas del Sistema con Carrusel -->
+    <section id="capturas-sistema" class="container my-5">
+        <h2 class="text-center mb-4">Capturas del Sistema</h2>
+        <div id="carouselCapturas" class="carousel slide" data-bs-ride="carousel">
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <img src="assets/project1.jpg" class="d-block w-100 rounded" alt="Captura del sistema 1">
+                </div>
+                <div class="carousel-item">
+                    <img src="assets/citas.png" class="d-block w-100 rounded" alt="Captura del sistema 2">
+                </div>
+                <div class="carousel-item">
+                    <img src="assets/project1.jpg" class="d-block w-100 rounded" alt="Captura del sistema 3">
+                </div>
+                <div class="carousel-item">
+                    <img src="assets/project1.jpg" class="d-block w-100 rounded" alt="Captura del sistema 4">
+                </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselCapturas" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Anterior</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselCapturas" data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Siguiente</span>
+            </button>
+        </div>
+    </section>
+
+    <!-- Sección de Diagrama de Base de Datos -->
+    <section id="diagrama-bd" class="container my-5">
+        <h2 class="text-center mb-4">Diagrama de Base de Datos</h2>
+        <div class="text-center">
+            <img src="assets/project1.jpg" alt="Diagrama de Base de Datos" class="img-fluid rounded">
+        </div>
+    </section>
+
+    <!-- Sección de Retos y Soluciones -->
+    <section id="retos" class="container my-5">
+        <h2 class="text-center mb-4">Retos y Soluciones</h2>
+        <p>Durante el desarrollo del proyecto, uno de los retos más grandes fue implementar un sistema de autenticación seguro con JWT. La solución incluyó configurar middleware personalizado en el backend para validar los tokens en cada petición.</p>
+    </section>
+
+    <!-- Sección de Enlaces -->
+    <footer class="container my-5 text-center">
+        <h2 class="mb-4">Enlaces del Proyecto</h2>
+        <a href="https://github.com/betoab728/proyecto" class="btn btn-dark btn-lg mx-2" target="_blank">
+            <i class="fab fa-github"></i> Ver Código
+        </a>
+        <a href="https://proyecto.netlify.app" class="btn btn-primary btn-lg mx-2" target="_blank">
+            <i class="fas fa-external-link-alt"></i> Demo en Vivo
+        </a>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>

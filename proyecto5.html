@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Detalle del Proyecto</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Encabezado del Proyecto -->
+    <header class="container-fluid bg-dark text-white py-5">
+        <div class="container text-center">
+            <h1>Aplicación Web de Consulta del clima en Tiempo Real</h1>
+            <p class="lead">
+                La aplicación permite obtener datos meteorológicos en tiempo real, como la temperatura, 
+                la humedad, las condiciones del clima y más, con solo ingresar el nombre de la ciudad o ubicación deseada
+                utilizando la API de OpenWeather, que utiliza varias fuentes de datos, incluyendo estaciones 
+                meteorológicas, satélites y modelos climáticos globales.
+
+                 El objetivo principal del proyecto es crear una interfaz sencilla y fácil de usar que permita a
+                 los usuarios obtener información precisa y actualizada sobre las condiciones climáticas en 
+                 cualquier parte del mundo.
+            </p>
+        </div>
+    </header>
+
+    <!-- Sección de Tecnologías -->
+    <section id="tecnologias" class="container my-5">
+        <h2 class="text-center mb-4">Tecnologías Utilizadas</h2>
+        <div class="row text-center">
+            <div class="col-md-6">
+                <i class="fab fa-react fa-3x text-primary"></i>
+                <p>React</p>
+            </div>
+            <div class="col-md-6">
+                <i class="fas fa-cogs fa-3x text-info"></i>
+                <p>Api</p>
+            </div>
+          
+        </div>
+        
+    </section>
+
+    <!-- Sección de Funcionalidades -->
+    <section id="funcionalidades" class="container my-5">
+        <h2 class="text-center mb-4">Características Principales</h2>
+        <ul class="list-group list-group-flush">
+            <li class="list-group-item">
+                <i class="fas fa-check-circle text-success me-2"></i> 
+                Condiciones meteorológicas actuales: temperatura, humedad, presión atmosférica, velocidad del viento, etc.
+            </li>
+            <li class="list-group-item">
+                <i class="fas fa-check-circle text-success me-2"></i> 
+                Pronósticos a corto y largo plazo
+            </li>
+            <li class="list-group-item">
+                <i class="fas fa-check-circle text-success me-2"></i> 
+                Alertas meteorológicas
+            </li>
+            <li class="list-group-item">
+                <i class="fas fa-check-circle text-success me-2"></i> 
+                Cobertura global para la consulta de clima en tiempo real en cualquier ciudad o región del mundo
+            </li>
+        </ul>
+    </section>
+
+    <!-- Sección de Capturas del Sistema con Carrusel -->
+    <section id="capturas-sistema" class="container my-5">
+        <h2 class="text-center mb-4">Capturas del Sistema</h2>
+        <div id="carouselCapturas" class="carousel slide" data-bs-ride="carousel">
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <img src="assets/project1.jpg" class="d-block w-100 rounded" alt="Captura del sistema 1">
+                </div>
+                <div class="carousel-item">
+                    <img src="assets/citas.png" class="d-block w-100 rounded" alt="Captura del sistema 2">
+                </div>
+                <div class="carousel-item">
+                    <img src="assets/project1.jpg" class="d-block w-100 rounded" alt="Captura del sistema 3">
+                </div>
+                <div class="carousel-item">
+                    <img src="assets/project1.jpg" class="d-block w-100 rounded" alt="Captura del sistema 4">
+                </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselCapturas" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Anterior</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselCapturas" data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Siguiente</span>
+            </button>
+        </div>
+    </section>
+
+    <!-- Sección de Diagrama de Base de Datos -->
+    <section id="diagrama-bd" class="container my-5">
+        <h2 class="text-center mb-4">Diagrama de Base de Datos</h2>
+        <div class="text-center">
+            <img src="assets/project1.jpg" alt="Diagrama de Base de Datos" class="img-fluid rounded">
+        </div>
+    </section>
+
+    <!-- Sección de Retos y Soluciones -->
+    <section id="retos" class="container my-5">
+        <h2 class="text-center mb-4">Retos y Soluciones</h2>
+        <p>Durante el desarrollo del proyecto, uno de los retos más grandes fue implementar un sistema de autenticación seguro con JWT. La solución incluyó configurar middleware personalizado en el backend para validar los tokens en cada petición.</p>
+    </section>
+
+    <!-- Sección de Enlaces -->
+    <footer class="container my-5 text-center">
+        <h2 class="mb-4">Enlaces del Proyecto</h2>
+        <a href="https://github.com/betoab728/proyecto" class="btn btn-dark btn-lg mx-2" target="_blank">
+            <i class="fab fa-github"></i> Ver Código
+        </a>
+        <a href="https://proyecto.netlify.app" class="btn btn-primary btn-lg mx-2" target="_blank">
+            <i class="fas fa-external-link-alt"></i> Demo en Vivo
+        </a>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>

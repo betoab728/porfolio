@@ -224,6 +224,14 @@ body, html {
     text-decoration: none;
 }
 
+.ver-mas {
+    color: #c9b718;
+}
+
+.ver-mas:hover {
+    color: #aa9b16;
+}
+
 /* experiencia de trabajo */
 .timeline {
     position: relative;
@@ -241,6 +249,18 @@ body, html {
 }
 .timeline .row {
     position: relative;
+}
+
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+    background-color: rgba(128, 128, 128, 0.7); /* Color gris translúcido */
+    border-radius: 50%; /* Opcional: para hacerlas circulares */
+   
+}
+
+.carousel-control-prev-icon:hover,
+.carousel-control-next-icon:hover {
+    background-color: rgba(128, 128, 128, 1); /* Hace que el gris sea más intenso al pasar el mouse */
 }
 
 .card {
