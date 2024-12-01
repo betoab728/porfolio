@@ -207,8 +207,6 @@ body, html {
 .boton-proyecto {
     display: inline-block;
     
-    margin-bottom:  0.2rem;
-    margin-top:  0.2rem;
     border: 0.0625rem solid #fff; /* Equivale a 1px */
     border-radius: 0.3125rem; /* Equivale a 5px */
     padding: 0.425rem 1.25rem; /* Equivale a 10px 20px */
@@ -249,8 +247,14 @@ body, html {
 
     background-color:  rgba(0, 0, 0, 0.5);
     box-shadow: 0 0 10px rgba(158, 184, 16, 0.5);
-   
+    margin-bottom: 1.2rem ;
 
+}
+
+.img-proyecto {
+    max-height: 248px; 
+   
+    object-fit: cover;
 }
 
 .timeline::after {
