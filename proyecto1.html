@@ -12,7 +12,7 @@
     <!-- Encabezado del Proyecto -->
     <header class="container-fluid bg-dark text-white py-5">
         <div class="container text-center">
-            <h1>Sistema de Reserva de Citas Médicas</h1>
+            <h1 class="title-section">Sistema de Reserva de Citas Médicas</h1>
             <p class="lead">
              Sistema desarrollado con el propósito principal de simplificar y optimizar la
               gestión de citas médicas en un centro de salud. Su objetivo principal es proporcionar 
@@ -22,9 +22,9 @@
     </header>
 
     <!-- Sección de Tecnologías -->
-    <section id="tecnologias" class="container my-5">
-        <h2 class="text-center mb-4">Tecnologías Utilizadas</h2>
-        <div class="row text-center">
+    <section id="tecnologias" class="stack m-3">
+        <h2 class="text-center mb-4 title-section p-3">Tecnologías Utilizadas</h2>
+        <div class="row  text-center">
             <div class="col-md-3">
                 <i class="fab fa-react fa-3x text-primary"></i>
                 <p>React</p>
@@ -45,35 +45,38 @@
     </section>
     <!-- Sección de Funcionalidades -->
     <section id="funcionalidades" class="container my-5">
-        <h2 class="text-center mb-4">Características Principales</h2>
-        <ul class="list-group list-group-flush">
-            <li class="list-group-item">
-                <i class="fas fa-check-circle text-success me-2"></i> 
-                Gestión de usuarios con autenticación segura
-            </li>
-            <li class="list-group-item">
-                <i class="fas fa-check-circle text-success me-2"></i> 
-                Registro de pacientes,ocupaciones y médicos
-            </li>
-            <li class="list-group-item">
-                <i class="fas fa-check-circle text-success me-2"></i> 
-                Gestión de historial clínico de pacientes
-            </li>
-            <li class="list-group-item">
-                <i class="fas fa-check-circle text-success me-2"></i> 
-                Programación de citas y recordatorios
-            </li>
-            <li class="list-group-item">
-                <i class="fas fa-check-circle text-success me-2"></i> 
-                Reporte en pdf 
-            </li>
-        </ul>
+        <div class="rounded-circle">
+     
+            <h2 class="text-center mb-4 title-section">Características Principales</h2>
+            <ul class="list-group list-group-flush rounded-2">
+                <li class="list-group-item">
+                    <i class="fas fa-check-circle text-success me-2"></i> 
+                    Gestión de usuarios con autenticación segura
+                </li>
+                <li class="list-group-item">
+                    <i class="fas fa-check-circle text-success me-2"></i> 
+                    Registro de pacientes,ocupaciones y médicos
+                </li>
+                <li class="list-group-item">
+                    <i class="fas fa-check-circle text-success me-2"></i> 
+                    Gestión de historial clínico de pacientes
+                </li>
+                <li class="list-group-item">
+                    <i class="fas fa-check-circle text-success me-2"></i> 
+                    Programación de citas y recordatorios
+                </li>
+                <li class="list-group-item">
+                    <i class="fas fa-check-circle text-success me-2"></i> 
+                    Reporte en pdf 
+                </li>
+            </ul>
+        </div>
     </section>
 
     <!-- Sección de Capturas del Sistema con Carrusel -->
     <section id="capturas-sistema" class="container my-5">
-        <h2 class="text-center mb-4">Capturas del Sistema</h2>
-        <div id="carouselCapturas" class="carousel slide" data-bs-ride="carousel">
+        <h2 class="text-center mb-4 title-section">Capturas del Sistema</h2>
+        <div id="carouselCapturas" class="carousel slide stack" data-bs-ride="carousel">
             <div class="carousel-inner">
                 <div class="carousel-item active">
                     <img src="assets/sistemas/citas/login.png" class="d-block w-100 rounded" alt="Captura del sistema 1">
@@ -101,24 +104,15 @@
             </button>
         </div>
     </section>
-
-    <!-- Sección de Diagrama de Base de Datos -->
-    <section id="diagrama-bd" class="container my-5">
-        <h2 class="text-center mb-4">Diagrama de Base de Datos (NoSql)</h2>
-        <div class="text-center">
-            <img src="assets/sistemas/citas/db.png" alt="Diagrama de Base de Datos" class="img-fluid rounded">
-        </div>
-    </section>
-
     <!-- Sección de Retos y Soluciones -->
     <section id="retos" class="container my-5">
-        <h2 class="text-center mb-4">Retos y Soluciones</h2>
+        <h2 class="text-center mb-4 title-section">Retos y Soluciones</h2>
         <p>Durante el desarrollo del proyecto, uno de los retos más grandes fue implementar un sistema de autenticación seguro con JWT. La solución incluyó configurar middleware personalizado en el backend para validar los tokens en cada petición.</p>
     </section>
 
     <!-- Sección de Enlaces -->
     <footer class="container my-5 text-center">
-        <h2 class="mb-4">Enlaces del Proyecto</h2>
+        <h2 class="mb-4 title-section">Enlaces del Proyecto</h2>
         <a href="https://github.com/betoab728/proyecto" class="btn btn-dark btn-lg mx-2" target="_blank">
             <i class="fab fa-github"></i> Ver Código
         </a>
