@@ -253,8 +253,9 @@ body, html {
 
 .carousel-control-prev-icon,
 .carousel-control-next-icon {
-    background-color: rgba(128, 128, 128, 0.7); /* Color gris translúcido */
-    border-radius: 50%; /* Opcional: para hacerlas circulares */
+    background-color: rgba(128, 128, 128, 0.7); 
+    border-radius: 50%; 
+    
    
 }
 
