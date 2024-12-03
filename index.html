@@ -180,7 +180,7 @@
                                      en Angular con Tailwind CSS para administrar centros técnicos...<a href="proyecto2.html" class="ver-mas"  >Ver más</a> .
                                 </p>
                                 <a href="https://netlify.netlify.app/" class="boton-proyecto" target="_blank">
-                                    <i class="fas fa-play-readme"></i> Demo
+                                    <i class="fas fa-play-circle"></i> Demo
                                 </a>
                                 <a href="https://github.com/betoab728/centro-tecnico-frontend" class="boton-proyecto" target="_blank">
                                     <i class="fab fa-github"></i> GitHub
@@ -201,9 +201,44 @@
                                   sucursales y múltiples almacenes...<a href="proyecto3.html" class="ver-mas" >Ver más</a> 
 
                                 </p>
-                                <a href="https://netlify.netlify.app/" class="boton-proyecto" target="_blank">
+                              
+                                <!-- Modal -->
+                                <a href="#" class="boton-proyecto" data-bs-toggle="modal" data-bs-target="#videoModal">
                                     <i class="fas fa-play-circle"></i> Demo
                                 </a>
+                                
+                                <!-- Modal -->
+                                <div class="modal fade" id="videoModal" tabindex="-1" aria-labelledby="videoModalLabel" aria-hidden="true">
+                                    <div class="modal-dialog modal-dialog-centered">
+                                        <div class="modal-content">
+                                            <div class="modal-header">
+                                                <h5 class="modal-title" id="videoModalLabel">Demo del Sistema</h5>
+                                                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                                            </div>
+                                            <div class="modal-body">
+                                                <video id="demoVideo" controls style="width: 100%;">
+                                                    <source src="assets/sistemas/erp/video-erp.mp4" type="video/mp4">
+                                                    Tu navegador no soporta la reproducción de videos.
+                                                </video>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                
+                                <script>
+                                    // Selecciona el modal y el video
+                                    const videoModal = document.getElementById('videoModal');
+                                    const demoVideo = document.getElementById('demoVideo');
+                                    
+                                    // Escucha el evento de cierre del modal
+                                    videoModal.addEventListener('hidden.bs.modal', () => {
+                                        // Pausa el video y lo reinicia al cerrar el modal
+                                        demoVideo.pause();
+                                        demoVideo.currentTime = 0;
+                                    });
+                                </script>
+                                                        
+                               
                                 <a href="#" class="boton-proyecto disabled" target="_blank">
                                     <i class="fab fa-github"></i> GitHub
                                 </a>
@@ -221,10 +256,42 @@
                                 <p class="card-text">Aplicación de escritorio construida con Python y OpenCV,
                                      que registra asistencias mediante reconocimiento facial y genera reportes de asistencia
                                       dinamicos...<a href="proyecto4.html" class="ver-mas" >Ver más</a> 
-                                    </p>
-                                <a href="https://netlify.netlify.app/" class="boton-proyecto" target="_blank">
-                                    <i class="fas fa-play-circle"></i> Demo
-                                </a>
+                                </p>
+                              <!-- Modal -->
+                              <a href="#" class="boton-proyecto" data-bs-toggle="modal" data-bs-target="#videoModal2">
+                                <i class="fas fa-play-circle"></i> Demo
+                            </a>
+                            
+                            <!-- Modal -->
+                            <div class="modal fade" id="videoModal2" tabindex="-1" aria-labelledby="videoModalLabel" aria-hidden="true">
+                                <div class="modal-dialog modal-dialog-centered">
+                                    <div class="modal-content">
+                                        <div class="modal-header">
+                                            <h5 class="modal-title" id="videoModalLabel">Demo del Sistema</h5>
+                                            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                                        </div>
+                                        <div class="modal-body">
+                                            <video id="demoVideo2" controls style="width: 100%;">
+                                                <source src="assets/sistemas/asistencia/asistencia.mp4" type="video/mp4">
+                                                Tu navegador no soporta la reproducción de videos.
+                                            </video>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            
+                            <script>
+                                // Selecciona el modal y el video
+                                const videoModal2 = document.getElementById('videoModal2');
+                                const demoVideo2 = document.getElementById('demoVideo2');
+                                
+                                // Escucha el evento de cierre del modal
+                                videoModal2.addEventListener('hidden.bs.modal', () => {
+                                    // Pausa el video y lo reinicia al cerrar el modal
+                                    demoVideo2.pause();
+                                    demoVideo2.currentTime = 0;
+                                });
+                            </script>
                                 <a href="https://github.com/betoab728/sistema-asistencia-python" class="boton-proyecto" target="_blank">
                                     <i class="fab fa-github"></i> GitHub
                                 </a>
@@ -392,6 +459,7 @@
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@1.16.1/dist/umd/popper.min.js"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
     <script src="https://kit.fontawesome.com/1c73857bab.js" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
 
     <!--  JavaScript personalizado -->
     <script src="script.js"></script>
