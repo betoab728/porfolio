@@ -373,6 +373,23 @@ body, html {
     line-height: 1.6;
 }
 
+.lista-experiencia {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+.lista-experiencia li {
+    background-color: transparent; 
+    color: #ffffff;
+    margin-bottom: 1rem;
+}
+
+.icono-experiencia {
+    color: #c9b718;
+    margin-right: 0.5rem;
+}
+
 /*footer*/
 
 footer {
